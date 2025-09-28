@@ -1,7 +1,7 @@
 {
   "name": "unblockedgamestemplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "Template for unblocked games project using Vite.",
   "main": "script.js",
   "dependencies": {
     "esbuild": "^0.25.2",
@@ -23,6 +23,7 @@
     "vite": "^6.2.4"
   },
   "scripts": {
+    "build": "vite build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
