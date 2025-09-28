@@ -1,33 +1,26 @@
 {
-  "name": "unblockedgamestemplate",
+  "name": "guaranteed-vite-template",
   "version": "1.0.0",
-  "description": "Template for unblocked games project using Vite.",
-  "main": "script.js",
+  "description": "Minimal Vite project using the npx build workaround for Vercel permissions.",
+  "main": "main.js",
   "dependencies": {
-    "esbuild": "^0.25.2",
-    "express": "^5.1.0",
-    "function-bind": "^1.1.1",
-    "has": "^1.0.3",
-    "http-proxy-middleware": "^3.0.3",
-    "is-core-module": "^2.11.0",
-    "morgan": "^1.10.0",
     "nanoid": "^3.3.7",
-    "path-parse": "^1.0.7",
     "picocolors": "^1.0.0",
     "postcss": "^8.4.31",
-    "resolve": "^1.22.1",
     "rollup": "^3.29.4",
     "source-map-js": "^1.0.2",
-    "supports-preserve-symlinks-flag": "^1.0.0",
-    "vhost": "^3.0.2",
     "vite": "^6.2.4"
   },
   "scripts": {
-    "start": "vite",
-    "build": "vite build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "npx vite build",
+    "preview": "vite preview"
   },
-  "keywords": [],
+  "keywords": [
+    "vite",
+    "vercel",
+    "fix"
+  ],
   "author": "",
   "license": "ISC"
 }
