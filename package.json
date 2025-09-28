@@ -23,7 +23,7 @@
     "vite": "^6.2.4"
   },
   "scripts": {
-    "install": "npm install",
+    "install": "npm install && chmod +x ./node_modules/.bin/vite",
     "build": "npx vite build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
